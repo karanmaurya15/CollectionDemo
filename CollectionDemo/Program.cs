@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Wellcome to Collection Program");
+            Console.WriteLine("Wellcome to Collection Program\n");
+            Demo.doSetDemo();
         }
     }
 }
