@@ -9,6 +9,7 @@
             Demo.doQueueDemo();
             Demo.doDictionaryDemo();
             Demo.doStackDemo();
+            Demo.doListDemo();
         }
     }
 }

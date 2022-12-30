@@ -80,5 +80,18 @@ namespace CollectionDemo
             }
             Console.WriteLine("Poped element : " + pop);
         }
+        public static void doListDemo()
+        {
+            Console.WriteLine("\n~~~~~~~List Demo~~~~~~~");
+            List<string> list = new List<string>();
+            list.Add("L");
+            list.Add("I");
+            list.Add("S");
+            list.Add("T");
+            foreach (var element in list)
+            {
+                Console.WriteLine(element);
+            }
+        }
     }
 }
