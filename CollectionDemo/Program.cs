@@ -7,6 +7,7 @@
             Console.WriteLine("Wellcome to Collection Program\n");
             Demo.doSetDemo();
             Demo.doQueueDemo();
+            Demo.doDictionaryDemo();
         }
     }
 }

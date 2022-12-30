@@ -45,5 +45,19 @@ namespace CollectionDemo
                 Console.WriteLine(enumerator.Current);
             }
         }
+        public static void doDictionaryDemo()
+        {
+            Console.WriteLine("\n**********Dictionary Demo**********");
+            Dictionary<int, string> dictionary = new Dictionary<int, string>();
+            dictionary.Add(1, "Shubham");
+            dictionary.Add(2, "Irbaz");
+            dictionary.Add(3, "Saurabh");
+            Console.WriteLine("Access value using key(key=2): " + dictionary[2]);
+            Console.WriteLine("\nIterating Dictionary: ");
+            foreach (var element in dictionary)
+            {
+                Console.WriteLine("key = " + element.Key + " & Value = " + element.Value);
+            }
+        }
     }
 }
