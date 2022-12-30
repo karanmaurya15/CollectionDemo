@@ -8,6 +8,7 @@
             Demo.doSetDemo();
             Demo.doQueueDemo();
             Demo.doDictionaryDemo();
+            Demo.doStackDemo();
         }
     }
 }

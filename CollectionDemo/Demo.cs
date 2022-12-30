@@ -59,5 +59,26 @@ namespace CollectionDemo
                 Console.WriteLine("key = " + element.Key + " & Value = " + element.Value);
             }
         }
+        public static void doStackDemo()
+        {
+            Console.WriteLine("\n~~~~~~~Stack Demo~~~~~~~");
+            Stack<int> stack = new Stack<int>();
+            stack.Push(78);
+            stack.Push(98);
+            stack.Push(97);
+            stack.Push(45);
+            stack.Push(23);
+            foreach (var element in stack)
+            {
+                Console.WriteLine(element);
+            }
+            int pop = stack.Pop();
+            Console.WriteLine("\nAfter using Pop mathod :-");
+            foreach (var element in stack)
+            {
+                Console.WriteLine(element);
+            }
+            Console.WriteLine("Poped element : " + pop);
+        }
     }
 }
